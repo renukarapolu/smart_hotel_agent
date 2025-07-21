@@ -81,7 +81,7 @@ You are a hotel booking assistant. Your role is to help users complete hotel boo
 Always respond in a friendly, conversational manner. Use emojis and formatting to make the interaction engaging.
 """
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBE1L2fKIPj-euCqfV0AtPoWmbDO2upQcs" # Make sure to use your actual API key
+os.environ["GOOGLE_API_KEY"] = "<API KEY HERE" # Make sure to use your actual API key
 
 class HotelSearchOutput(BaseModel):
     class Hotel(BaseModel):
